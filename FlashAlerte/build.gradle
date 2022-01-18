@@ -1,0 +1,63 @@
+apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-android-extensions'
+apply plugin: 'kotlin-kapt'
+
+
+def vCode = (int) (((new Date().getTime() / 1000) - 1538344800) / 10)
+println "Vcode is : " +vCode
+
+android {
+    compileSdkVersion 30
+    defaultConfig {
+        applicationId "fr.jnda.android.flashalert"
+        minSdkVersion 23
+        targetSdkVersion 30
+        versionCode 6528272
+        versionName "2.0.9-beta02"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+        debug {
+            testCoverageEnabled true
+        }
+    }
+    compileOptions {
+        sourceCompatibility = 1.8
+        targetCompatibility = 1.8
+    }
+    kotlinOptions {
+        jvmTarget = "1.8"
+    }
+}
+
+dependencies {
+
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.5.0'
+    implementation 'androidx.core:core-ktx:1.6.0-beta01'
+    implementation 'androidx.appcompat:appcompat:1.3.0'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    implementation 'androidx.vectordrawable:vectordrawable:1.1.0'
+    implementation 'androidx.preference:preference-ktx:1.1.1'
+    implementation 'com.jpardogo.googleprogressbar:library:1.2.0'
+    implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-core:1.5.0'
+    implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-android:1.4.1'
+    implementation "com.squareup.okhttp3:okhttp:4.9.2"
+
+    implementation 'androidx.room:room-runtime:2.3.0'
+    androidTestImplementation 'androidx.test.espresso:espresso-contrib:3.4.0-beta01'
+    kapt 'androidx.room:room-compiler:2.3.0'
+
+    testImplementation 'junit:junit:4.13.2'
+    androidTestImplementation 'androidx.test:runner:1.4.0-beta01'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0-beta01'
+    androidTestImplementation 'androidx.test:rules:1.4.0-beta01'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.2'
+    androidTestImplementation 'tools.fastlane:screengrab:2.0.0'
+
+}

@@ -1,0 +1,20 @@
+{
+  "version": 3,
+  "artifactType": {
+    "type": "APK",
+    "kind": "Directory"
+  },
+  "applicationId": "fr.jnda.android.flashalert",
+  "variantName": "release",
+  "elements": [
+    {
+      "type": "SINGLE",
+      "filters": [],
+      "attributes": [],
+      "versionCode": 6528272,
+      "versionName": "2.0.9-beta02",
+      "outputFile": "FlashAlerte-release.apk"
+    }
+  ],
+  "elementType": "File"
+}

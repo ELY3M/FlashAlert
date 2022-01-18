@@ -1,0 +1,24 @@
+## 2.0.9
+Correction pour Android 11
+Suppresion du contrôle du son environnant pour android 11+ ( impossible de garder la permission micro )
+Corrections internes
+## 2.0.8
+Correction sur le slider de son
+Ajout d'un délai entre deux alertes
+## 2.0.7
+Contrôle du son environnant
+## 2.0.6
+Détection si le téléphone est à plat
+## 2.0.5
+Ajout d'une tuile pour android 24+
+## 2.0.4
+Ajout de la langue allemande
+Mise de la langue EN par défaut
+## 2.0.3
+Passage de gradle 5.3 à gradle 4.10.1
+## 2.0.2
+Sécurisation du wrapper gradle
+## 2.0.1
+Notification sur les applications
+## 1.9.5
+Suppression des dépendances google

@@ -1,0 +1,34 @@
+<resources>
+    <string name="settings_all">Alle Kontakte</string>
+    <string name="settings_contacts">Nur meine Kontakte</string>
+    <string name="camera_error">Fehler bei der Verbindung zur Kamera</string>
+    <string name="title_event_type">Art des Ereignisses</string>
+    <string name="title_contact">Kontaktgruppe</string>
+    <string name="title_config">Bedingungen</string>
+    <string name="event_call">Bei Anrufen</string>
+    <string name="event_sms">Bei SMS Nachrichten</string>
+    <string name="event_screen">Nur bei ausgeschaltetem Bildschirm</string>
+    <string name="event_dnd">Aufheben des Modus \"Bitte nicht Stören\"</string>
+    <string name="alert_title">Berechtigung zur Kameranutzung</string>
+    <string name="alert_message">Um auf den Kamerablitz zugreifen zu können, muss die Berechtigung zum Zugriff auf die Kamera erteilt werden. Wenn dies nicht gewährt wird, funktioniert die Anwendung nicht.</string>
+    <string name="alert_positivebtn">Berechtigung erteilen</string>
+    <string name="error">Fehler</string>
+    <string name="alert_no_flash">Ihr Gerät scheint keinen Blitz zu haben. Die App funktioniert nicht.</string>
+    <string name="toolbar_info">Übrigens…</string>
+    <string name="settings_night">Nutzung des Nachtmodus</string>
+    <string name="event_actif">Aktiviert</string>
+    <string name="title_activate">Programmaktivierung</string>
+    <string name="refresh_apps" >Aktualisieren</string>
+    <string name="load_in_progress" >Ladevorgang läuft</string>
+    <string name="notification_listener_permission">Berechtigungsanfrage</string>
+    <string name="notification_listener_permission_explanation">Zur Nutzung dieser Funktion, müssen Sie Zugriff auf Ihre Benachrichtigungen gewähren. Bitte aktivieren Sie für diese Anwendung die notwendige Berechtigung auf der folgenden Seite.</string>
+    <string name="notify_grant_permission">Berechtigung nicht gewährt</string>
+    <string name="notify_list_apps">Liste der Anwendungen zur Benachrichtigung</string>
+    <string name="tile_enabled">FlashAlert Aktiviert</string>
+    <string name="tile_disabled">FlashAlert Deaktiviert</string>
+    <string name="event_onlyflat">Nur wenn das Telefon liegt</string>
+    <string name="sound_current_value">Der aktuelle Wert beträgt %s</string>
+    <string name="sound_selected_value">Der ausgewählte Grenzwert ist %s</string>
+    <string name="strobe_length">Wie lange der Blitz blinkt</string>
+    <string name="event_apps">Benachrichtigungen von Anwendungen</string>
+</resources>

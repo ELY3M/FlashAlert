@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <PreferenceCategory
+        android:title="@string/title_activate">
+        <SwitchPreference
+            android:key="isActivate"
+            android:title="@string/event_actif"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/title_event_type">
+
+        <SwitchPreference
+            android:key="event_call"
+            android:title="@string/event_call"/>
+
+        <SwitchPreference
+            android:key="event_sms"
+            android:title="@string/event_sms"/>
+    </PreferenceCategory>
+
+        <Preference
+            android:key="event_apps"
+            android:summary="Détécter les notifications"
+            android:title="@string/event_apps" >
+        </Preference>
+</PreferenceScreen>

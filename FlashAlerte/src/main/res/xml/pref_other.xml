@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <PreferenceCategory
+        android:title="@string/title_config">
+        <SeekBarPreference
+            android:key="strobe_length"
+            android:max="60000"
+            android:title="@string/strobe_length" />
+        <SwitchPreference
+            android:key="event_screenon"
+            android:title="@string/event_screen"/>
+
+        <SwitchPreference
+            android:key="event_dnd"
+            android:title="@string/event_dnd"/>
+
+        <SwitchPreference
+            android:key="event_onlyflat"
+            android:title="@string/event_onlyflat"/>
+
+        <SwitchPreference
+            android:key="event_noisedetector"
+            android:title="Limite sonore"/>
+        <Preference
+            android:dependency="event_noisedetector"
+            android:key="event_noiselimit"
+            android:title="Limite"/>
+
+        <SwitchPreference
+            android:key="settings_dayAndNight"
+            android:title="@string/settings_night" />
+
+        <EditTextPreference
+            android:key="smarthub_url"
+            android:title="Full url to Your Smart Hub or Script"
+            android:persistent="true" />
+
+
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

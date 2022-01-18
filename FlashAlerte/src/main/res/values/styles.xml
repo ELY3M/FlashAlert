@@ -1,0 +1,18 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="Theme.AppCompat.DayNight"  parent="Theme.AppCompat.Light" >
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:listSeparatorTextViewStyle">@style/ListSeparatorText</item>
+    </style>
+
+    <style name="ListSeparatorText" parent="android:Widget.TextView"><!--parent is optional -->
+        <item name="android:background">@color/colorPrimary</item>
+    </style>
+
+    <style name="PreferenceScreen" parent="Theme.AppCompat.DayNight">
+        <item name="android:textColor">@color/colorPrimaryNight</item>
+    </style>
+</resources>

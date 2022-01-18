@@ -1,0 +1,34 @@
+<resources>
+    <string name="settings_all">Tous contacts</string>
+    <string name="settings_contacts">Uniquement mes contacts</string>
+    <string name="camera_error">Échec de l\'obtention de l\'appareil photo</string>
+    <string name="title_event_type">Type d\'événement</string>
+    <string name="title_contact">Type de contact</string>
+    <string name="title_config">Paramètres</string>
+    <string name="event_call">Sur les appels</string>
+    <string name="event_sms">Sur les messages</string>
+    <string name="event_screen">Uniquement si l\'écran est éteint</string>
+    <string name="event_dnd">Outrepasser le mode ne pas déranger</string>
+    <string name="alert_title">Permission Caméra</string>
+    <string name="alert_message">Pour acceder au flash de la caméra il est nécessaire d\'accorder la permission CAMERA. Si celle ci n\'est pas accordée, l\'application ne pourra pas fonctionner.</string>
+    <string name="alert_positivebtn">Demander</string>
+    <string name="error">Erreur</string>
+    <string name="alert_no_flash">Votre terminal semble ne pas avoir de flash.L\'application ne pourra pas fonctionner.</string>
+    <string name="toolbar_info">A propos</string>
+    <string name="settings_night">Utiliser le mode nuit</string>
+    <string name="event_actif">Actif</string>
+    <string name="title_activate">Activation de l\'application</string>
+    <string name="refresh_apps" >Refresh</string>
+    <string name="load_in_progress" >Chargement en cours</string>
+    <string name="notification_listener_permission">Demande d\'accès</string>
+    <string name="notification_listener_permission_explanation">Pour utiliser cette fonctionnalité, vous accorder l\'accès aux notifications. Veuillez activer l\'application dans l\'écran suivant</string>
+    <string name="notify_grant_permission">Permission non accordée</string>
+    <string name="notify_list_apps">Liste des applications à notifier</string>
+    <string name="tile_enabled">FlashAlerte Activé</string>
+    <string name="tile_disabled">FlashAlerte Désactivé</string>
+    <string name="event_onlyflat">Seulement si le téléphone est à plat</string>
+    <string name="event_apps">Notifications d\'application</string>
+    <string name="sound_current_value" >La valeur actuelle est de %s</string>
+    <string name="sound_selected_value" >La valeur actuelle est de %s</string>
+    <string name="strobe_length">Combien de temps pour garder le stroboscope clignotant</string>
+</resources>

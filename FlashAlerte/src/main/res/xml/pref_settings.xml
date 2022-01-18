@@ -1,0 +1,17 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <PreferenceCategory
+        android:title="@string/title_contact">
+
+        <SwitchPreference
+            android:key="settings_all"
+            android:title="@string/settings_all" />
+
+        <SwitchPreference
+            android:key="settings_contacts"
+            android:title="@string/settings_contacts" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

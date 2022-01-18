@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="settings_all">All contacts</string>
+    <string name="settings_contacts">Only my contacts</string>
+    <string name="camera_error">Failed to get the camera</string>
+    <string name="title_event_type">Event type</string>
+    <string name="title_contact">Type of contact</string>
+    <string name="title_config">Settings</string>
+    <string name="event_call">On the calls</string>
+    <string name="event_sms">On messages</string>
+    <string name="event_screen">Only if the screen is off</string>
+    <string name="alert_title">Camera Permission</string>
+    <string name="alert_message">To access the camera flash it is necessary to grant CAMERA permission. If it is not granted, the application will not work.</string>
+    <string name="alert_positivebtn">Request</string>
+    <string name="error">Error</string>
+    <string name="alert_no_flash">Your device does not seem to have a flash. The application will not work.</string>
+    <string name="event_dnd">Bypass do not disturb mode</string>
+    <string name="toolbar_info">Info</string>
+    <string name="settings_night">"Use dark mode "</string>
+    <string name="event_actif">Active</string>
+    <string name="title_activate">Activation of the application</string>
+    <string name="refresh_apps" >Refresh</string>
+    <string name="load_in_progress" >Loading …</string>
+    <string name="notification_listener_permission">Accès request</string>
+    <string name="notification_listener_permission_explanation">To use this feature, you grant access to notifications. Please activate the application in the following screen</string>
+    <string name="notify_grant_permission">Permission not grantede</string>
+    <string name="notify_list_apps">List of applications to notify</string>
+    <string name="tile_enabled">FlashAlert Enabled</string>
+    <string name="tile_disabled">FlashAlert Disabled</string>
+    <string name="event_onlyflat">Only if the phone is lying down</string>
+    <string name="event_apps">Application notification</string>
+    <string name="sound_current_value">The current value is  %s</string>
+    <string name="sound_selected_value">The selected value is %s</string>
+    <string name="strobe_length">How Long to keep strobe flashing</string>
+</resources>
