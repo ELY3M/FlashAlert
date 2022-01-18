@@ -1,24 +1,29 @@
+## 2.0.10 
+added strobe timer in setting so you can set your time on how long the led to be flashing.  
+added custom script request code and url in settings.  
+
 ## 2.0.9
-Correction pour Android 11
-Suppresion du contrôle du son environnant pour android 11+ ( impossible de garder la permission micro )
-Corrections internes
+Fix for Android 11
+Remove control of surrounding sound for android 11+ (can't keep mic permission)
+Internal fixes
 ## 2.0.8
-Correction sur le slider de son
-Ajout d'un délai entre deux alertes
+Correction on the sound slider
+Added a delay between two alerts
 ## 2.0.7
-Contrôle du son environnant
+Monitoring of surrounding sound
 ## 2.0.6
-Détection si le téléphone est à plat
+Detection if the phone is flat
 ## 2.0.5
-Ajout d'une tuile pour android 24+
+Added tile for android 24+
 ## 2.0.4
-Ajout de la langue allemande
-Mise de la langue EN par défaut
+Added German language
+Setting the language to EN by default
 ## 2.0.3
-Passage de gradle 5.3 à gradle 4.10.1
+Upgrade from gradle 5.3 to gradle 4.10.1
 ## 2.0.2
-Sécurisation du wrapper gradle
+Securing the gradle wrapper
 ## 2.0.1
-Notification sur les applications
+App notification
 ## 1.9.5
-Suppression des dépendances google
+Remove google dependencies
+
